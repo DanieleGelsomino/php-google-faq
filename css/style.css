@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    max-height: 100px;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+.logo {
+   width: 60px;
+}
+
+.title {
+    font-weight: 400;
+    color: gray;
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+
+.container-faq {
+    padding: 0 150px;
+    margin-top: 150px;
+
+}
+
+.list,
+.sub-list {
+margin: 20px 0 20px 20px;
+font-weight: 400;
+font-size: 0.8rem;
+}
+
+.sub-list {
+    list-style-type: lower-alpha;
+}
+
+.sub-list li {
+    margin-bottom: 20px;
+}
+
+h2,
+h3 {
+    font-weight: 500;
+    
+}
+
+p {
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+h2,
+h3,
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(53, 53, 53);
+}
