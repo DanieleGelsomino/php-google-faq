@@ -13,13 +13,23 @@ body {
     border-bottom: 1px solid lightgray;
     padding: 20px;
     display: flex;
-    align-items: center;
+    align-items: center; 
+    justify-content: space-between;
     position: fixed;
     top: 0;
     width: 100%;
     background-color: #fff;
 }
 
+.left-side {
+    display: flex;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+
+}
 
 .logo {
    width: 60px;
@@ -30,11 +40,28 @@ body {
     color: gray;
     font-size: 1.2rem;
     margin-left: 5px;
+    align-self: flex-start;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.account {
+    background-color: #F4511E;
+    color: #fff;
+    padding: 5px 12px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: 50%;
+
 }
 
 .container-faq {
-    padding: 0 150px;
-    margin-top: 150px;
+    margin: 150px auto 0 ;
+    width: 60%;
 
 }
 
@@ -61,7 +88,7 @@ h3 {
 
 p {
     font-weight: 400;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 h2,
