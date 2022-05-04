@@ -1,3 +1,6 @@
 <?php
-phpinfo();
+//phpinfo();
+
+include 'data_faq.php';
+
 ?>
