@@ -23,6 +23,7 @@ body {
 
 .left-side {
     display: flex;
+    align-items: center;
 }
 
 .right-side {
@@ -33,6 +34,7 @@ body {
 
 .logo {
    width: 60px;
+   height: 20px;
 }
 
 .title {
@@ -40,7 +42,6 @@ body {
     color: gray;
     font-size: 1.2rem;
     margin-left: 5px;
-    align-self: flex-start;
 }
 
 .icon {
@@ -70,14 +71,17 @@ body {
 margin: 20px 0 20px 20px;
 font-weight: 400;
 font-size: 0.8rem;
+color: rgb(53, 53, 53);
 }
 
 .sub-list {
     list-style-type: lower-alpha;
+   
 }
 
 .sub-list li {
     margin-bottom: 20px;
+
 }
 
 h2,
@@ -88,7 +92,7 @@ h3 {
 
 p {
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 h2,
